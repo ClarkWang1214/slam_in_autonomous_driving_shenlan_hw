@@ -11,7 +11,7 @@
 
 对应各章的markdown文件位于markdown_hw目录下：
 
-[https://gitee.com/clarkwang1214/slam_in_autonomous_driving/tree/master/markdown_hw](https://gitee.com/clarkwang1214/slam_in_autonomous_driving/tree/master/markdown_hw)
+[https://github.com/ClarkWang1214/slam_in_autonomous_driving_shenlan_hw/tree/main/markdown_hw](https://github.com/ClarkWang1214/slam_in_autonomous_driving_shenlan_hw/tree/main/markdown_hw)
 
 ## SLAM in Autonomous Driving book (SAD book)
 
