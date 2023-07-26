@@ -1,0 +1,73 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# latex
+*.aux
+*.blg
+*.log
+*.toc
+*.gz
+*.bbl
+
+# cmake
+**build**
+
+bin
+.idea
+data/ch6/
+data/ch6/frame*.txt
+data/ch6/*.png
+data/ch7/*.pcd
+**DS_Store
+
+data/ch9/*.pcd
+# data/ch9/*
+data/ch9/map_data/*
+data/ch9/pts_map_data/* 
+# data/ch9/ndt_map_data/*
+# data/ch9/ndt_map_data_10/*
+# data/ch9/ndt_map_data_5/*
+# data/ch9/ndt_map_data_2/*
+data/ch9/loops.txt
+data/ch3/state.txt
+data/ch3/gins.txt
+data/ch3/gnss_output.txt
+data/ch4/gins_preintg.txt
+
+thirdparty/*
+
+.vscode/
+
+
+
+
