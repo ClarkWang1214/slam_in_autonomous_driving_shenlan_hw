@@ -1,0 +1,43 @@
+preprocess:
+  lidar_type: 2
+  time_scale: 1e-3
+  scan_line: 32
+bag_path: /media/clark/新加卷/Documents/VMware_Share/learning/slam_in_autonomous_driving-master/dataset/sad/nclt/20130110.bag
+pts_map_data: ./data/ch9/pts_map_data/
+rtk_ang_noise: 5.0
+common:
+  time_sync_en: false
+  imu_topic: imu_raw
+  lid_topic: points_raw
+  dataset: nclt
+max_iteration: 10
+rtk_outlier_th: 1.0
+ndt_map_data_10: ./data/ch9/ndt_map_data_10/
+rtk_has_rot: false
+use_pcl_ndt: false
+loop_closing:
+  min_distance: 30
+  skip_id: 5
+  min_id_interval: 100
+  ndt_score_th: 0.17
+lio_yaml: ./config/velodyne_nclt.yaml
+point_filter_num: 3
+YAML: 1.0
+lidar_continuous_num: 5
+ndt_map_data_1: ./data/ch9/ndt_map_data_1/
+rtk_height_noise_ratio: 10.0
+ndt_map_data_5: ./data/ch9/ndt_map_data_5/
+rtk_ext:
+  t: [0, 0.24, -0.283]
+rtk_pos_noise: 2.0
+ndt_map_data_3: ./data/ch9/ndt_map_data_3/
+ndt_map_data_4: ./data/ch9/ndt_map_data_4/
+origin:
+  - 276726.5626579862
+  - 4685961.4821172
+  - 272.809
+imu_has_gravity: true
+mapping:
+  extrinsic_R: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+  extrinsic_T: [0, 0, 0.28]
+  extrinsic_est_en: true
